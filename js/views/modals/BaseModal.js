@@ -1,5 +1,5 @@
 import _ from 'underscore';
-import $ from 'jquery';
+//import $ from 'jquery';
 import loadTemplate from '../../utils/loadTemplate';
 import BaseVw from '../baseVw';
 import { getHtml, getAppFrame } from '../../utils/selectors';

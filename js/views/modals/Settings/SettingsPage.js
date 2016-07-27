@@ -1,6 +1,6 @@
 import loadTemplate from '../../../utils/loadTemplate';
 import { View } from 'backbone';
-import select2 from 'select2'; // eslint-disable-line no-unused-vars
+//import select2 from 'select2'; // eslint-disable-line no-unused-vars
 
 export default class extends View {
   constructor(options = {}) {
@@ -54,7 +54,7 @@ export default class extends View {
     });
 
     setTimeout(() => {
-      this.$('#settingsLocationSelect').select2();
+      //this.$('#settingsLocationSelect').select2();
     }, 0);
 
 
